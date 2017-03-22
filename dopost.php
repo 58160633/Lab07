@@ -34,3 +34,10 @@ if($_POST['name'] != ""){
     $conn->query($sql);
 }
 ?>
+
+<html>
+<head> </head>
+<body>
+<a href="http://angsila.cs.buu.ac.th/~58160633/887371/lab07/show_register.php">รายชื่อผู้ลงทะเบียน</a>
+</body>
+</html>

@@ -5,7 +5,26 @@ $result = $conn->query($query);
 ?>
 
 <html>
-<head><title>รายชื่อผู้ลงทะเบียน</title></head>
+<head>
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+</head>
 <body>
 <center>
 <h1>รายชื่อผู้ลงทะเบียน</h1>
@@ -36,5 +55,6 @@ while($row = $result->fetch_object()){?>
 </tr>
 <?php }?>
 </table>
+<a href="http://angsila.cs.buu.ac.th/~58160633/887371/lab07/register_form.php">ลงทะเบียน</a> 
 </body>
 </html>

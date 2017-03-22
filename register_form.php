@@ -86,7 +86,12 @@ $('#submit').on('click', function(event){
     }
 });
 </script>
-<a href="er.png">ER</a>
+<a href="er.png">ER</a> <br>
+<a href="https://github.com/58160633/Lab07/blob/master/register_form.php">register_form.php</a> <br>
+<a href="https://github.com/58160633/Lab07/blob/master/dopost.php">dopost.php</a> <br>
+<a href="https://github.com/58160633/Lab07/blob/master/show_register.php">show_register.php</a> <br>
+
+
 </body>
 </html>
 
