@@ -12,8 +12,13 @@ table {
     width: 100%;
 }
 
-th, td {
+td {
     text-align: left;
+    padding: 8px;
+}
+
+th {
+text-align: center;
     padding: 8px;
 }
 
@@ -54,7 +59,7 @@ while($row = $result->fetch_object()){?>
 <td><?php echo $row->PROVINCE_NAME; ?></td>
 </tr>
 <?php }?>
-</table>
+</table><br>
 <a href="http://angsila.cs.buu.ac.th/~58160633/887371/lab07/register_form.php">ลงทะเบียน</a> 
 </body>
 </html>
